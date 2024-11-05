@@ -1,0 +1,26 @@
+.default__bnt{
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+      background-color: #0a75df;
+    }
+  
+    &:active{
+      transform: scale(1.02);
+    }
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
