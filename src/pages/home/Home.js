@@ -1,8 +1,11 @@
 import React from 'react'
+import Faq from '../../components/faq/Faq'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Faq/>
+    </div>
   )
 }
 
